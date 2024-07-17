@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Second Page</title>
+  <link rel="stylesheet" href="./firstQuiz.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="./secondPage.css">
+</head>
+<body>
+  <div class="popUp">
+    <img src="./img/close.png" alt="closeMenu" class="closeMenu" />
+    <a href="./index.html">Главная</a>
+    <a href="">Информация о тесте</a>
+    <a href="./firstQuiz.html">Пройти тест</a>
+  </div>
+  <header>
+    <img src="./img/menu.png" alt="menu" class="openPopUp" id="style"/>
+    <img src="./img/mind.png" alt="mind_logo">
+    <h1>тест на определение IQ</h1>
+  </header>
+  <section class="step_1">
+    <div class="progress-indicator">
+      <div class="level-indicator" data-level="2"></div>
+    </div>
+    <h2>Укажите ваш возраст: </h2>
+    <form action="#">
+        <label>
+          <input type="radio" name="gender" value="male" checked>
+          До 18
+        </label>
+  <label>
+   <input type="radio" name="gender" value="male" checked>
+   От 18 до 28
+</label>
+<label>
+  <input type="radio" name="gender" value="male" checked>
+  от 29 до 35
+</label>
+<label>
+  <input type="radio" name="gender" value="male" checked>
+  От 36
+</label>
+    </form>
+    <a href="./thirdPage.html">Далее</a>
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>

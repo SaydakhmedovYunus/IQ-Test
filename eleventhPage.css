@@ -1,0 +1,35 @@
+.step_1 img {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.step_1 h2 {
+  margin-top: 30px;
+}
+.step_1 a {
+  margin-top: 40px;
+}
+form {
+  display: flex;
+  flex-direction: row;
+
+}
+.step_1 input {
+  background-color: white;
+  margin-top: 40px;
+  width: 41px;
+  height: 44px;
+  border-radius: 1px;
+  border: none;
+
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  line-height: 49px;
+  text-align: center;
+  color: black;
+}
+.send {
+  width: 189px;
+  height: 41px;
+}

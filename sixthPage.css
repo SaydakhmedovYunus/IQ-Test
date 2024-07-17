@@ -1,0 +1,48 @@
+.step_1 h2 {
+  margin-top: 30px;
+  padding: 5px;
+}
+form  {
+  background-color:transparent;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-gap: 10px;
+}
+form input {
+  width: 75px;
+  height: 75px;
+  background-color: #A8A8A8;
+  color: transparent;
+  border:none;
+}
+form input:nth-child(2) {
+  background-color:#46B2AC;
+}
+form input:nth-child(3) {
+  background-color:#A95403;
+}
+form input:nth-child(4) {
+  background-color:#00A701;
+}
+form input:nth-child(5) {
+  background-color:#000000;
+}
+form input:nth-child(6) {
+  background-color:#F60100;
+}
+form input:nth-child(7) {
+  background-color:#850068;
+}
+form input:nth-child(8) {
+  background-color:#FDFF19;
+}
+form input:nth-child(9) {
+  background-color:#0000A9;
+}
+form input:hover {
+  border:5px solid #FFC700;
+}
+.step_1 a {
+  margin-top: 60px;
+}

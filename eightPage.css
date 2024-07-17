@@ -1,0 +1,28 @@
+.variants {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+
+}
+.variants input {
+  width: 41px;
+  height: 44px;
+  top: 423px;
+  left: 175px;
+  text-align: center;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-family: 'PT Serif', serif;
+font-size: 20px;
+line-height: 49px;
+text-align: center;
+
+}
+.step_1 h2 {
+  margin-top: 20px;
+}
+.step_1 a {
+  margin-top: 40px;
+}

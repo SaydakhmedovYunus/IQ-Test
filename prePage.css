@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 30px;
+}
+#characterList {
+    background-color: gray;
+    margin: 20px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+p {
+    margin: 20px;
+}
